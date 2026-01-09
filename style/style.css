@@ -280,7 +280,7 @@ nav img {
 
 .solution-image,
 .solution-content {
-  flex: 1;
+    flex: 1;
 }
 
 .solution-desc {
@@ -304,7 +304,7 @@ nav img {
     display: flex;
     gap: 6px;
     margin-bottom: 16px;
-    
+
 }
 
 .check-icon {
@@ -312,4 +312,65 @@ nav img {
     height: 20px;
 }
 
+.eas-section {
+    font-family: Inter;
+    width: auto;
+    height: 506px;
+    padding: 0 24px;
+    background-color: white;
+}
 
+
+.eas-container {
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    margin: 0 120px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0px 120px 120px 120px;
+}
+
+.eas-title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.eas-text {
+    font-family: Inter;
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.eas-note {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #64748b;
+}
+
+.eas-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin: 24px;
+    padding: 16px 16px;
+    background-color: #35975E;
+    color: #ffffff;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.eas-btn img {
+    width: 16px;
+    height: 16px;
+}
