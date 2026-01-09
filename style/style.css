@@ -136,3 +136,33 @@ nav img {
     justify-content: space-between;
     align-items: center;
 }
+
+.info-section {
+    padding: 0px 120px;
+    background-color: white;
+}
+
+.info-container {
+    margin: auto;
+    text-align: center;
+}
+
+.info-container h2 {
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.info-container p {
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    max-width: 700px;
+    margin: auto;
+}
