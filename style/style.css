@@ -30,6 +30,12 @@ nav button {
     border-radius: 4px;
 }
 
+nav button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
 nav img {
     height: 60px;
     width: 139px;
@@ -122,6 +128,7 @@ nav img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .secondary-btn {
@@ -135,6 +142,16 @@ nav img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background-color: blue;
+}
+
+.secondary-btn:hover {
+    background-color: mediumslateblue;
+    border: none;
 }
 
 .info-section {
@@ -360,7 +377,7 @@ nav img {
     margin: 24px;
     padding: 16px 16px;
     background-color: #35975E;
-    color: #ffffff;
+    color: white;
 
     border: none;
     border-radius: 8px;
@@ -375,11 +392,16 @@ nav img {
     height: 16px;
 }
 
+.eas-btn:hover{
+    background-color: black;
+    color: white;
+}
+
 .footer {
     font-family: Inter;
     width: 100%;
     background-color: #001a39;
-   
+
     color: #cbd5e1;
 }
 
