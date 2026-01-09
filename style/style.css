@@ -1,0 +1,33 @@
+nav{
+    /* background-color: aqua; */
+    /* border: 1px solid red; */
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    
+}
+.nav-content{
+    font-style: medium;
+    font-weight: 500;
+    display: flex;
+    padding: 18px 346px;
+    gap: 32px;
+}
+nav button{
+    color: white;
+    font-style: Semi Bold;
+    font-weight: 600;  
+    padding: 12px 16px;
+    height: 44px;
+    width: 164px;
+    background-color: #35975E;
+    border: none;
+    border-radius: 4px;
+}
+nav img{
+    height: 60px;
+    width: 139px;
+}
