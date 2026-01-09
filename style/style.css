@@ -50,6 +50,24 @@ nav img {
     object-fit: cover;
 }
 
+.banner-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-style: Medium;
+    font-size: 16px;
+    background: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 999px;
+
+    font-size: 14px;
+    color: #7cf2a5;
+}
+
 .banner-content {
     position: relative;
     z-index: 1;
