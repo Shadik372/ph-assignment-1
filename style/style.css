@@ -374,3 +374,52 @@ nav img {
     width: 16px;
     height: 16px;
 }
+
+.footer {
+    font-family: Inter;
+    width: 100%;
+    background-color: #001a39;
+   
+    color: #cbd5e1;
+}
+
+.footer-container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 120px 120px 30px 120px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;
+}
+
+.footer-social p {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: whitesmoke;
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 24px;
+
+    font-size: 13px;
+    color: whitesmoke;
+}
